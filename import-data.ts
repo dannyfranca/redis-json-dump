@@ -32,4 +32,4 @@ async function importRedisData(host: string, port = 6379): Promise<void> {
 }
 
 // To use this script, execute:
-importRedisData(process.env.REDIS_HOST!);
+importRedisData(process.env.TO_REDIS_HOST!);

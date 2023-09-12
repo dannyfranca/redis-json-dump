@@ -36,4 +36,4 @@ async function exportRedisData(host: string, port = 6379): Promise<void> {
   }
 }
 
-exportRedisData(process.env.REDIS_HOST!);
+exportRedisData(process.env.FROM_REDIS_HOST!);
