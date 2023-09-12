@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "export-data": "dotenv tsx ./export-redis.ts",
-    "import-data": "dotenv tsx ./export-redis.ts"
+    "export-data": "dotenv tsx ./export-data.ts",
+    "import-data": "dotenv tsx ./import-data.ts"
   },
   "keywords": [],
   "author": "",
